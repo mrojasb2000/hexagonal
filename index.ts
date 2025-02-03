@@ -1,6 +1,5 @@
-const world = 'world';
+const world = "world";
 
-export function hello(who:string = world): string {
+export function hello(who: string = world): string {
   return `Hello ${world}`;
 }
-
